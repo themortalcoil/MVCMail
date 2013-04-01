@@ -11,7 +11,7 @@ namespace Mailer.Controllers
     {
         public EmailResult VerificationEmail()
         {
-            To.Add("charlesscottwilliams@yahoo.com");
+            To.Add("user@email.com");
             From = "no-reply@test.com";
             Subject = "TestTestTest";
             return Email("VerificationEmail");
