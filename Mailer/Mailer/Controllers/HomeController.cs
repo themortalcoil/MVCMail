@@ -28,5 +28,12 @@ namespace Mailer.Controllers
 
             return View();
         }
+
+        public ActionResult SendEmail()
+        {
+            new EmailController().VerificationEmail().Deliver();
+            ViewBag.Message = "Sent Email";
+            return View("Index");
+        }
     }
 }
