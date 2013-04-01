@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailer", "Mailer\Mailer.csproj", "{17E6AF0C-955B-4CE7-A139-D5FAEF39FC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailer.Tests", "Mailer.Tests\Mailer.Tests.csproj", "{CB446AD2-4881-4644-AED4-154E775CCBC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17E6AF0C-955B-4CE7-A139-D5FAEF39FC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E6AF0C-955B-4CE7-A139-D5FAEF39FC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E6AF0C-955B-4CE7-A139-D5FAEF39FC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E6AF0C-955B-4CE7-A139-D5FAEF39FC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB446AD2-4881-4644-AED4-154E775CCBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB446AD2-4881-4644-AED4-154E775CCBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB446AD2-4881-4644-AED4-154E775CCBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB446AD2-4881-4644-AED4-154E775CCBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
